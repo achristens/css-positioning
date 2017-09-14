@@ -1,14 +1,14 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 html {
   box-sizing: inherit;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 100%; /* this will be 16px on most browsers */
-  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+  font-size: 100%;
+  /* this will be 16px on most browsers */
+  line-height: 1.5;
+  /* this is a multiple of the font size (1.5 * 16px = 24px) */
 }
 
 body {
@@ -26,4 +26,32 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+}
+
+.fa {
+  color: #FF0800;
+}
+
+article {
+  border: 1px solid lightgray;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.film-poster {
+  float: left;
+  width: 34%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.film-details {
+  float: left;
+  width: 62%;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
